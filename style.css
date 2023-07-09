@@ -59,10 +59,10 @@
 .character-info{
     width: 40%;
     padding: 10px;
+    position: relative;
 }
 
 .character-header{
-    margin-top: 100px;
     font-size: 40px;
 }
 
@@ -92,4 +92,35 @@
     color: #3C6628;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.character-info footer{
+    position: absolute;
+    bottom :20px;
+    right: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+.character-additional{
+    background: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.additional-content{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.additional-item{
+    margin: 30px 0;
+}
+
+.additional-item span{
+    font-weight: bold;
 }
