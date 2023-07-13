@@ -49,6 +49,7 @@
     width: 100%;
     position: absolute;
     bottom: 0;
+    left: -20px;
     font-style: italic;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
@@ -113,8 +114,6 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    position: relative;
-    top: -5px;
 }
 
 .additional-content{
