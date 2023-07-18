@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #E5E1D8;
+}
+
 .nav-item{
     text-decoration: none;
     color: white;
@@ -178,3 +182,44 @@
     margin-top: -40px;
     height: 50%;
 }
+
+.special article{
+    width: 80%;
+    margin: auto;
+}
+
+.special-header{
+    text-align: center;
+}
+
+.special-header *{
+    margin-top: 25px;
+}
+
+.special-img{
+    text-align: center;
+}
+
+.special-img img{
+    width: 60%;
+}
+
+.special-header h2{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 9px;
+}
+
+.special-header h3{
+    color: #636363;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.special-img figcaption{
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 400;
+}
+
