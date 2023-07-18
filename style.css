@@ -129,3 +129,52 @@
 .additional-item span{
     font-weight: bold;
 }
+
+.skills{
+    background: url("img/images/section3-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+    padding: 100px 120px;
+    height: 100vh;
+    align-items: center;
+}
+
+.skill-card{
+    background-color: #252525;
+    height: 80%;
+    width: 30%;
+    text-align: center; 
+    padding-bottom: 80px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px black;
+}
+
+.skill-card *{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.skill-card h3{
+    color:#C2DC49;
+    font-size: 30px;
+}
+
+.skill-card p{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.skill-card h4{
+    color: white;
+    font-size: 20px;
+}
+
+.skill-card img{
+    margin-top: -40px;
+    height: 50%;
+}
